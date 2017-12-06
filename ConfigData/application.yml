@@ -5,7 +5,7 @@ eureka:
     serviceUrl:
       defaultZone: http://localhost:8063/eureka/
 server:
-port: ${PORT:${SERVER_PORT:0}}
+  port: ${PORT:${SERVER_PORT:0}}
 
 ---
 spring:
