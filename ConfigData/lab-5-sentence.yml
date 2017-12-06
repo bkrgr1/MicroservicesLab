@@ -4,4 +4,4 @@ eureka:
     serviceUrl:
       defaultZone: http://localhost:8063/eureka/
 server:
-port: 8064
+  port: 8064
