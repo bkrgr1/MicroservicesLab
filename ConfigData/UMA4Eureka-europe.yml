@@ -1,0 +1,4 @@
+---
+my:
+  eureka:
+    data: "Test"
