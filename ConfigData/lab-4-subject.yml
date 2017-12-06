@@ -2,8 +2,8 @@
 eureka:
   client:
     serviceUrl:
-      defaultZone=http://localhost:8063/eureka/,http://localhost:8063/eureka/
+      defaultZone: http://localhost:8063/eureka/
 server:
-  port=${PORT:${SERVER_PORT:0}}
+  port: ${PORT:${SERVER_PORT:0}}
 my:
-  words=I,You,He,She,It
+  words: I,You,He,She,It
