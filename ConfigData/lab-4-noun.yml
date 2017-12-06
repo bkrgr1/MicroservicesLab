@@ -6,4 +6,4 @@ eureka:
 server:
   port: ${PORT:${SERVER_PORT:0}}
 my:
-words: boat,book,vote,seat,backpack,partition,groundhog
+  words: boat,book,vote,seat,backpack,partition,groundhog
