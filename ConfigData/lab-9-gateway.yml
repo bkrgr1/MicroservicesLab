@@ -11,3 +11,6 @@ server:
 spring:
   thymeleaf:
     cache: false
+
+zuul:
+  prefix: "/services"
