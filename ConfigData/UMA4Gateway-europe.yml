@@ -15,5 +15,7 @@ spring:
 zuul:
   ignoredServices: "*"
   routes:
-    path: /api/**
-    serviceId: UMA
+    path: /api/users/**
+    serviceId: UMA4Rest
+    path: /api/instances/**
+    serviceId: UMA4Instance
