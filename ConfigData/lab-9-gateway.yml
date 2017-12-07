@@ -9,5 +9,5 @@ server:
   
 # Allow thymeleaf template changes to reload:
 spring:
-  thymeleaf
+  thymeleaf:
     cache: false
